@@ -1,0 +1,16 @@
+PODS:
+  - XHTagsContainer (0.1.0)
+
+DEPENDENCIES:
+  - XHTagsContainer (from `../`)
+
+EXTERNAL SOURCES:
+  XHTagsContainer:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  XHTagsContainer: cccaf874b24fb977403e849c97783fb4edba16ec
+
+PODFILE CHECKSUM: 3b5977161f5dac8d9793b8cf72fb63a1e8401381
+
+COCOAPODS: 1.6.1

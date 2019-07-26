@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'XHTagsContainer_Example' do
+  pod 'XHTagsContainer', :path => '../'
+
+  target 'XHTagsContainer_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

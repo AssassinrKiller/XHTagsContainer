@@ -1,0 +1,22 @@
+{
+  "name": "XHTagsContainer",
+  "version": "0.1.0",
+  "summary": "A short description of XHTagsContainer.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/ios_service@126.com/XHTagsContainer",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "ios_service@126.com": "xuhuan@meishubao.com"
+  },
+  "source": {
+    "git": "https://github.com/ios_service@126.com/XHTagsContainer.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "XHTagsContainer/Classes/**/*"
+}

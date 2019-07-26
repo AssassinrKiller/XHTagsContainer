@@ -1,0 +1,6 @@
+framework module XHTagsContainer {
+  umbrella header "XHTagsContainer-umbrella.h"
+
+  export *
+  module * { export * }
+}
