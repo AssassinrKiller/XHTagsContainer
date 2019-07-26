@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'XHTagsContainer'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of XHTagsContainer.'
+  s.summary          = '自定义标签选择,支持多选和单选'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -21,11 +21,11 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/ios_service@126.com/XHTagsContainer'
+  s.homepage         = 'https://github.com/AssassinrKiller/XHTagsContainer'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'ios_service@126.com' => 'AssassinrKiller' }
-  s.source           = { :git => 'https://github.com/ios_service@126.com/XHTagsContainer.git', :tag => s.version.to_s }
+  s.author           = { 'AssassinrKiller' => 'ios_service@126.com' }
+  s.source           = { :git => 'https://github.com/AssassinrKiller/XHTagsContainer.git', :tag => s.version.to_s }
 
   s.ios.deployment_target = '8.0'
 
