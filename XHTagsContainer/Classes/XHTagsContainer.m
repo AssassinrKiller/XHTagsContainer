@@ -7,6 +7,7 @@
 //
 
 #import "XHTagsContainer.h"
+#import "NSBundle+XH.h"
 
 @interface XHTagsContainer()
 
@@ -22,6 +23,13 @@
 
 - (instancetype)initWithViewModel:(XHTagsContainerViewModel *)viewModel{
     if (self = [super init]) {
+        
+        NSBundle *b = [NSBundle xh_bundle];
+        NSString *title = NSLocalizedStringFromTableInBundle(@"草莓", @"XHTagsContainer", b, nil);
+        UIImage *image = [UIImage imageNamed:@"netError_img" inBundle:b compatibleWithTraitCollection:nil];
+    
+        NSLog(@"xuhuan --- title:%@ ---- image:%@",title,image);
+        
         self.viewModel = viewModel;
         self.buildArr = viewModel.tagFrames.copy;
         [self configDefault];

@@ -23,6 +23,7 @@
 
 - (void)viewDidLoad{
     [super viewDidLoad];
+    NSLog(@"xuhuan ---- %@",[NSBundle mainBundle]);
     [self.tableView registerClass:XHTableViewCell.class forCellReuseIdentifier:@"XHTableViewCell"];
     self.tableView.delegate = self;
     self.tableView.dataSource = self;

@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "NSBundle+XH.h"
 #import "XHTagsContainer.h"
 #import "XHTagsContainerViewModel.h"
 

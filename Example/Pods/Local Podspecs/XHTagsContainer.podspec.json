@@ -1,22 +1,27 @@
 {
   "name": "XHTagsContainer",
-  "version": "0.1.0",
-  "summary": "A short description of XHTagsContainer.",
+  "version": "0.1.1",
+  "summary": "自定义标签选择,支持多选和单选",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/ios_service@126.com/XHTagsContainer",
+  "homepage": "https://github.com/AssassinrKiller/XHTagsContainer",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "ios_service@126.com": "xuhuan@meishubao.com"
+    "AssassinrKiller": "ios_service@126.com"
   },
   "source": {
-    "git": "https://github.com/ios_service@126.com/XHTagsContainer.git",
-    "tag": "0.1.0"
+    "git": "https://github.com/AssassinrKiller/XHTagsContainer.git",
+    "tag": "0.1.1"
   },
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "XHTagsContainer/Classes/**/*"
+  "source_files": "XHTagsContainer/Classes/**/*",
+  "resource_bundles": {
+    "XHTagsContainer": [
+      "XHTagsContainer/Assets/Resource/*"
+    ]
+  }
 }
