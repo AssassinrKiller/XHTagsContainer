@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'XHTagsContainer'
-  s.version          = '0.1.1'
+  s.version          = '0.1.2'
   s.summary          = '自定义标签选择,支持多选和单选'
 
 # This description is used to generate tags and improve search results.
@@ -33,9 +33,9 @@ TODO: Add long description of the pod here.
   
   #s.resources = ['XHTagsContainer/Assets/Resource/*']
   
-  s.resource_bundles = {
-    'XHTagsContainer' => ['XHTagsContainer/Assets/Resource/*']
-  }
+  #s.resource_bundles = {
+  #  'XHTagsContainer' => ['XHTagsContainer/Assets/Resource/*']
+  #}
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'

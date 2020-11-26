@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "A50B8063F80EBC845201B7F3BA849C75"
-               BuildableName = "XHTagsContainer.framework"
+               BuildableName = "libXHTagsContainer.a"
                BlueprintName = "XHTagsContainer"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>

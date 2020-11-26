@@ -7,301 +7,213 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		00F0D578B015891920CFCB43A8BBE6F6 /* XHTagsContainer.h in Headers */ = {isa = PBXBuildFile; fileRef = AA9B8A198355102CED8CF4A4B4C57B23 /* XHTagsContainer.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2441D460338636481ABA9B258F595467 /* NSBundle+XH.m in Sources */ = {isa = PBXBuildFile; fileRef = B9CF24CFC30E5981D0FBA1BC477E8E59 /* NSBundle+XH.m */; };
-		4E0E997AA02897F1D7177DB6A3D59478 /* XHTagsContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = BA965A187B510774074078017B63E2F0 /* XHTagsContainer.m */; };
-		75F1BE950F8E641CD953CC4459BFC396 /* XHTagsContainerViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 44EA2B1237770FB15C1847B9C2B27F9D /* XHTagsContainerViewModel.m */; };
-		7E08115A02F6234F9399141C7819DCB9 /* Pods-XHTagsContainer_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 491FBEB35275B9508712CCEE1833EBBA /* Pods-XHTagsContainer_Example-dummy.m */; };
-		82C92352412F1431F2AFBF5B7C00F67C /* Pods-XHTagsContainer_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A9B68C127C5E470EEFCA5EC0299049BF /* Pods-XHTagsContainer_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8378EF7BC5F08DF61C1F445F4D77D695 /* XHTagsContainer-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5EBAB50BC000C3B4F6F9C5561A30D0EC /* XHTagsContainer-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		96B4CFFF8F2006E7A7361032355FCC00 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		9816E803C4F09920885FCBDCCA4C9A63 /* zh.lproj in Resources */ = {isa = PBXBuildFile; fileRef = CF86C112A48D6CB4302780F820FD27DC /* zh.lproj */; };
-		9A570665FB69C7E7B1077A7D5B89AEEC /* Pods-XHTagsContainer_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A9C34B9F433371F37F3ABF87D3A559E /* Pods-XHTagsContainer_Tests-dummy.m */; };
-		9CACD9B93B64DC2E40CC7D2815298212 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		A4C7EB5D2B3EA374E5DC75281EDA5E97 /* NSBundle+XH.h in Headers */ = {isa = PBXBuildFile; fileRef = 2EB2B4186A74BDD7B909CDD2165E9E4D /* NSBundle+XH.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A6DEE3BA9C7551A60E1EE6FAA4545467 /* en.lproj in Resources */ = {isa = PBXBuildFile; fileRef = F9D1F6EAA4190A55394581FADE0E9871 /* en.lproj */; };
-		C6CD2BC757220E7647701E051474E415 /* XHTagsContainer.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 71F741BC1ECBE5B1CEC3A792B3D896FF /* XHTagsContainer.bundle */; };
-		CE50C5FD637B61340D5A968823264DAE /* netError_img@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 28C426384F7821440B0FB28A5A6207CD /* netError_img@2x.png */; };
-		D04D01D4EBFAE985F0D0B1027FA22CE5 /* netError_img@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3349A17BEAA7D9DF008EF8A966E163C6 /* netError_img@3x.png */; };
-		D85DA6B3E630FEF7D72F40BAC3DFEE31 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		E3A1E6D7C1C8D56C4DB8FA3CE8DC9CC7 /* Pods-XHTagsContainer_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E410956633DF324AE62C5E7F9D5099AE /* Pods-XHTagsContainer_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EA03E805E733FA48E581C219D1EAAA14 /* XHTagsContainer-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 04249F545012215548662D8B4BB17968 /* XHTagsContainer-dummy.m */; };
-		F8C12280BDF6FC95407AFEB969BF6498 /* XHTagsContainerViewModel.h in Headers */ = {isa = PBXBuildFile; fileRef = F42F7F6A58A4138C2AD6DBD7A35D19CF /* XHTagsContainerViewModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		55877DED6F9D871A32F470AA4FBE9A07 /* XHTagsContainer-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B5D1C6F9B2657159CDACFFE48A2F5E9 /* XHTagsContainer-dummy.m */; };
+		64FB218F7B705B8652517E6DD511567C /* XHTagsContainer.h in Headers */ = {isa = PBXBuildFile; fileRef = F68036D9BAA67FDACCDC52979E7AB68B /* XHTagsContainer.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		AE6AF56A109381712057DE02659FC84F /* XHTagsContainerViewModel.h in Headers */ = {isa = PBXBuildFile; fileRef = E63E2EAF993759CD1662C7A261F57E59 /* XHTagsContainerViewModel.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B0027B47401DC1799D6142458673AEF2 /* Pods-XHTagsContainer_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C27F0D669B7F60FDE2E53466636A271E /* Pods-XHTagsContainer_Example-dummy.m */; };
+		B0488D632693ACB00A0A2149365F40CF /* XHTagsContainerViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A9F86406417E33D0210C501E56BD029F /* XHTagsContainerViewModel.m */; };
+		D064F3340C568D12A6EF9A3FD40A53E8 /* XHTagsContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = 270F8BEB4E895380FDAA6E05E807C45E /* XHTagsContainer.m */; };
+		E6A1CA4B1C71090EFE717EB2C804D7A1 /* Pods-XHTagsContainer_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 98C02BCC62E94C94ADEA4522F33A9911 /* Pods-XHTagsContainer_Tests-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		57F6FD1688580367CE4FC03D32FA1817 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 89D668750BDC48C87B4514A823403593;
-			remoteInfo = "XHTagsContainer-XHTagsContainer";
-		};
-		8DCC3159452FBFCEAC5049A05821A3E5 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = A1308B9B71F68A968C0EDA36154E9DC5;
-			remoteInfo = "Pods-XHTagsContainer_Example";
-		};
-		B31232FC85719398D0D0598E8B44733A /* PBXContainerItemProxy */ = {
+		3A0201EDA54767C4BAD84708BF452FBE /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = A50B8063F80EBC845201B7F3BA849C75;
 			remoteInfo = XHTagsContainer;
 		};
+		F6CC37E86C09DC5851BF73E27E6920DC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A1308B9B71F68A968C0EDA36154E9DC5;
+			remoteInfo = "Pods-XHTagsContainer_Example";
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		04249F545012215548662D8B4BB17968 /* XHTagsContainer-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "XHTagsContainer-dummy.m"; sourceTree = "<group>"; };
-		0D1164E984F257CE7C6A66EB2E176F10 /* Pods-XHTagsContainer_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XHTagsContainer_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		28A68BDA946B44DC867BFAD3A2F49797 /* ResourceBundle-XHTagsContainer-XHTagsContainer-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-XHTagsContainer-XHTagsContainer-Info.plist"; sourceTree = "<group>"; };
-		28C426384F7821440B0FB28A5A6207CD /* netError_img@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "netError_img@2x.png"; path = "XHTagsContainer/Assets/Resource/netError_img@2x.png"; sourceTree = "<group>"; };
-		29146DA86AC697D5CD3230EFDC39C2C2 /* Pods-XHTagsContainer_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XHTagsContainer_Example-Info.plist"; sourceTree = "<group>"; };
-		2EB2B4186A74BDD7B909CDD2165E9E4D /* NSBundle+XH.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSBundle+XH.h"; path = "XHTagsContainer/Classes/NSBundle+XH.h"; sourceTree = "<group>"; };
-		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		3349A17BEAA7D9DF008EF8A966E163C6 /* netError_img@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "netError_img@3x.png"; path = "XHTagsContainer/Assets/Resource/netError_img@3x.png"; sourceTree = "<group>"; };
-		35D04024A8A44E14940DD1230A779A0E /* Pods-XHTagsContainer_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XHTagsContainer_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		3B9B9158D40F1950139C2B2B3B381D74 /* XHTagsContainer.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = XHTagsContainer.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		3C3EC6E4B9B40A9253DC172D49430816 /* XHTagsContainer-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "XHTagsContainer-Info.plist"; sourceTree = "<group>"; };
-		3E3EE960C6E599B86F2CD9980C792B7F /* Pods-XHTagsContainer_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-XHTagsContainer_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		44EA2B1237770FB15C1847B9C2B27F9D /* XHTagsContainerViewModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XHTagsContainerViewModel.m; path = XHTagsContainer/Classes/XHTagsContainerViewModel.m; sourceTree = "<group>"; };
-		464AA2826907A85FEA602D4963778816 /* XHTagsContainer.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XHTagsContainer.xcconfig; sourceTree = "<group>"; };
-		491FBEB35275B9508712CCEE1833EBBA /* Pods-XHTagsContainer_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-XHTagsContainer_Example-dummy.m"; sourceTree = "<group>"; };
-		501839BAF305D74B1AABDD73CD0A6DBA /* XHTagsContainer-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XHTagsContainer-prefix.pch"; sourceTree = "<group>"; };
-		560EE826DB64E15CDFF4851FAB22E9BA /* Pods-XHTagsContainer_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XHTagsContainer_Tests-Info.plist"; sourceTree = "<group>"; };
-		5EBAB50BC000C3B4F6F9C5561A30D0EC /* XHTagsContainer-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XHTagsContainer-umbrella.h"; sourceTree = "<group>"; };
-		6A825F5E91711DD532A4C0945015B867 /* Pods-XHTagsContainer_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-XHTagsContainer_Example.modulemap"; sourceTree = "<group>"; };
-		6D751A0277A569826C54299C533C2DEF /* Pods-XHTagsContainer_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XHTagsContainer_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		6E03167B6346D876543C0DA85CFD9190 /* XHTagsContainer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = XHTagsContainer.framework; path = XHTagsContainer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		71F741BC1ECBE5B1CEC3A792B3D896FF /* XHTagsContainer.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = XHTagsContainer.bundle; path = "XHTagsContainer-XHTagsContainer.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
-		8167B41FBD924D001774F598E6B78E7E /* Pods_XHTagsContainer_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_XHTagsContainer_Tests.framework; path = "Pods-XHTagsContainer_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		83FCA40BCCF632BEAADF247B0E1DA245 /* Pods-XHTagsContainer_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-XHTagsContainer_Example-frameworks.sh"; sourceTree = "<group>"; };
-		8A9C34B9F433371F37F3ABF87D3A559E /* Pods-XHTagsContainer_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-XHTagsContainer_Tests-dummy.m"; sourceTree = "<group>"; };
-		950BDF6F97C73E9FBCA41FE283E0CCDA /* Pods-XHTagsContainer_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-XHTagsContainer_Tests.modulemap"; sourceTree = "<group>"; };
-		9D41D3739A5C5AA7B5A3CFA65776C6E1 /* Pods-XHTagsContainer_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XHTagsContainer_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		00B60F761B92C63FEF0D0418643D4346 /* Pods-XHTagsContainer_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XHTagsContainer_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		03BA853F4E6B703FEA601619E7B3662C /* Pods-XHTagsContainer_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XHTagsContainer_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		270F8BEB4E895380FDAA6E05E807C45E /* XHTagsContainer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XHTagsContainer.m; path = XHTagsContainer/Classes/XHTagsContainer.m; sourceTree = "<group>"; };
+		338977473D90A42281B609DE6E3D03A4 /* Pods-XHTagsContainer_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XHTagsContainer_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		34B2C2FC0FBA013CCE47D011689B676A /* Pods-XHTagsContainer_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-XHTagsContainer_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3EBC6621F5F67D7E5944679870252DD3 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		4B5D1C6F9B2657159CDACFFE48A2F5E9 /* XHTagsContainer-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "XHTagsContainer-dummy.m"; sourceTree = "<group>"; };
+		4DB0046403FE53917522EBAD44F6826D /* XHTagsContainer-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XHTagsContainer-prefix.pch"; sourceTree = "<group>"; };
+		51007597E60298261D26845365944D95 /* XHTagsContainer.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XHTagsContainer.xcconfig; sourceTree = "<group>"; };
+		569B12F0A64EE91CDE2A129829B7C0E4 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		6E03167B6346D876543C0DA85CFD9190 /* libXHTagsContainer.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libXHTagsContainer.a; path = libXHTagsContainer.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		8167B41FBD924D001774F598E6B78E7E /* libPods-XHTagsContainer_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-XHTagsContainer_Tests.a"; path = "libPods-XHTagsContainer_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9494CDD7A608C1251E9B90163AF426E6 /* Pods-XHTagsContainer_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XHTagsContainer_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		951F218F5E477ACF9BE41CA758825CCA /* Pods-XHTagsContainer_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-XHTagsContainer_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		95ACFF15334215A53B405BC5F3EFC242 /* Pods-XHTagsContainer_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XHTagsContainer_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		98C02BCC62E94C94ADEA4522F33A9911 /* Pods-XHTagsContainer_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-XHTagsContainer_Tests-dummy.m"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A9B68C127C5E470EEFCA5EC0299049BF /* Pods-XHTagsContainer_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-XHTagsContainer_Tests-umbrella.h"; sourceTree = "<group>"; };
-		AA9B8A198355102CED8CF4A4B4C57B23 /* XHTagsContainer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XHTagsContainer.h; path = XHTagsContainer/Classes/XHTagsContainer.h; sourceTree = "<group>"; };
-		B9CF24CFC30E5981D0FBA1BC477E8E59 /* NSBundle+XH.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSBundle+XH.m"; path = "XHTagsContainer/Classes/NSBundle+XH.m"; sourceTree = "<group>"; };
-		BA965A187B510774074078017B63E2F0 /* XHTagsContainer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XHTagsContainer.m; path = XHTagsContainer/Classes/XHTagsContainer.m; sourceTree = "<group>"; };
-		BBDE51747ABB175A3A671F6B516442AD /* Pods-XHTagsContainer_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-XHTagsContainer_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		C2E47750C492B4CF94BC6525147E7FB6 /* Pods_XHTagsContainer_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_XHTagsContainer_Example.framework; path = "Pods-XHTagsContainer_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		CCF0BC865243DD026E3451584C2EB69C /* XHTagsContainer.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = XHTagsContainer.modulemap; sourceTree = "<group>"; };
-		CF86C112A48D6CB4302780F820FD27DC /* zh.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = zh.lproj; path = XHTagsContainer/Assets/Resource/zh.lproj; sourceTree = "<group>"; };
-		D500C1C351371FAB48F08DEDAE621E88 /* Pods-XHTagsContainer_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XHTagsContainer_Example.release.xcconfig"; sourceTree = "<group>"; };
-		DF773541306B604D609DC4614D75E329 /* Pods-XHTagsContainer_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XHTagsContainer_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		E410956633DF324AE62C5E7F9D5099AE /* Pods-XHTagsContainer_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-XHTagsContainer_Example-umbrella.h"; sourceTree = "<group>"; };
-		E8674D3C9CA5B74142DA6E0BCF945676 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		F42F7F6A58A4138C2AD6DBD7A35D19CF /* XHTagsContainerViewModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XHTagsContainerViewModel.h; path = XHTagsContainer/Classes/XHTagsContainerViewModel.h; sourceTree = "<group>"; };
-		F9D1F6EAA4190A55394581FADE0E9871 /* en.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = en.lproj; path = XHTagsContainer/Assets/Resource/en.lproj; sourceTree = "<group>"; };
-		FE27731FA2D7654315EE0C5C030ECB2D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		A9F86406417E33D0210C501E56BD029F /* XHTagsContainerViewModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XHTagsContainerViewModel.m; path = XHTagsContainer/Classes/XHTagsContainerViewModel.m; sourceTree = "<group>"; };
+		C27F0D669B7F60FDE2E53466636A271E /* Pods-XHTagsContainer_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-XHTagsContainer_Example-dummy.m"; sourceTree = "<group>"; };
+		C2E47750C492B4CF94BC6525147E7FB6 /* libPods-XHTagsContainer_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-XHTagsContainer_Example.a"; path = "libPods-XHTagsContainer_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFA96CD985EE1DEC0D7B72FC6E81FC3D /* Pods-XHTagsContainer_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XHTagsContainer_Example.release.xcconfig"; sourceTree = "<group>"; };
+		E5F7AE36C037C4846BEBAA70FB3DBC56 /* XHTagsContainer.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = XHTagsContainer.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		E63E2EAF993759CD1662C7A261F57E59 /* XHTagsContainerViewModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XHTagsContainerViewModel.h; path = XHTagsContainer/Classes/XHTagsContainerViewModel.h; sourceTree = "<group>"; };
+		F68036D9BAA67FDACCDC52979E7AB68B /* XHTagsContainer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XHTagsContainer.h; path = XHTagsContainer/Classes/XHTagsContainer.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		0C1B22DA71805D307484696CF343A3EA /* Frameworks */ = {
+		358CC6898DB26B39ABA51BC3A9D13369 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3BF0D0B277EAD9791F5504DEA1396420 /* Frameworks */ = {
+		3F6FCAFDC1664E1B236E0A6C3C3CDDD0 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9CACD9B93B64DC2E40CC7D2815298212 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9E0149623D54C60A28DF207CB43940DB /* Frameworks */ = {
+		DB8BC7A25FC761B6B51D33A3CC812A4D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				96B4CFFF8F2006E7A7361032355FCC00 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		EADA2CAC92D6E48984ED12349FC4676E /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D85DA6B3E630FEF7D72F40BAC3DFEE31 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1E15D03C59E99C59A979E4E3BECD78BC /* Pods-XHTagsContainer_Tests */ = {
+		188A9AAD8DB5D3AC02898754B32F2374 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				950BDF6F97C73E9FBCA41FE283E0CCDA /* Pods-XHTagsContainer_Tests.modulemap */,
-				3E3EE960C6E599B86F2CD9980C792B7F /* Pods-XHTagsContainer_Tests-acknowledgements.markdown */,
-				35D04024A8A44E14940DD1230A779A0E /* Pods-XHTagsContainer_Tests-acknowledgements.plist */,
-				8A9C34B9F433371F37F3ABF87D3A559E /* Pods-XHTagsContainer_Tests-dummy.m */,
-				560EE826DB64E15CDFF4851FAB22E9BA /* Pods-XHTagsContainer_Tests-Info.plist */,
-				A9B68C127C5E470EEFCA5EC0299049BF /* Pods-XHTagsContainer_Tests-umbrella.h */,
-				9D41D3739A5C5AA7B5A3CFA65776C6E1 /* Pods-XHTagsContainer_Tests.debug.xcconfig */,
-				0D1164E984F257CE7C6A66EB2E176F10 /* Pods-XHTagsContainer_Tests.release.xcconfig */,
-			);
-			name = "Pods-XHTagsContainer_Tests";
-			path = "Target Support Files/Pods-XHTagsContainer_Tests";
-			sourceTree = "<group>";
-		};
-		4E627015EE1666A88F084DC7D993EC8D /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				F9D1F6EAA4190A55394581FADE0E9871 /* en.lproj */,
-				28C426384F7821440B0FB28A5A6207CD /* netError_img@2x.png */,
-				3349A17BEAA7D9DF008EF8A966E163C6 /* netError_img@3x.png */,
-				CF86C112A48D6CB4302780F820FD27DC /* zh.lproj */,
-			);
-			name = Resources;
-			sourceTree = "<group>";
-		};
-		60F0AD3E9F794E50F95128AF1BA6C944 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				63F24FB30A8F4965D1B174201B126730 /* XHTagsContainer */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		63F24FB30A8F4965D1B174201B126730 /* XHTagsContainer */ = {
-			isa = PBXGroup;
-			children = (
-				2EB2B4186A74BDD7B909CDD2165E9E4D /* NSBundle+XH.h */,
-				B9CF24CFC30E5981D0FBA1BC477E8E59 /* NSBundle+XH.m */,
-				AA9B8A198355102CED8CF4A4B4C57B23 /* XHTagsContainer.h */,
-				BA965A187B510774074078017B63E2F0 /* XHTagsContainer.m */,
-				F42F7F6A58A4138C2AD6DBD7A35D19CF /* XHTagsContainerViewModel.h */,
-				44EA2B1237770FB15C1847B9C2B27F9D /* XHTagsContainerViewModel.m */,
-				925EB051671452CA88842A8832DF5E55 /* Pod */,
-				4E627015EE1666A88F084DC7D993EC8D /* Resources */,
-				81CA66B194B8819B4FE81A3887157070 /* Support Files */,
-			);
-			name = XHTagsContainer;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		81CA66B194B8819B4FE81A3887157070 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				28A68BDA946B44DC867BFAD3A2F49797 /* ResourceBundle-XHTagsContainer-XHTagsContainer-Info.plist */,
-				CCF0BC865243DD026E3451584C2EB69C /* XHTagsContainer.modulemap */,
-				464AA2826907A85FEA602D4963778816 /* XHTagsContainer.xcconfig */,
-				04249F545012215548662D8B4BB17968 /* XHTagsContainer-dummy.m */,
-				3C3EC6E4B9B40A9253DC172D49430816 /* XHTagsContainer-Info.plist */,
-				501839BAF305D74B1AABDD73CD0A6DBA /* XHTagsContainer-prefix.pch */,
-				5EBAB50BC000C3B4F6F9C5561A30D0EC /* XHTagsContainer-umbrella.h */,
+				51007597E60298261D26845365944D95 /* XHTagsContainer.xcconfig */,
+				4B5D1C6F9B2657159CDACFFE48A2F5E9 /* XHTagsContainer-dummy.m */,
+				4DB0046403FE53917522EBAD44F6826D /* XHTagsContainer-prefix.pch */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/XHTagsContainer";
 			sourceTree = "<group>";
 		};
-		925EB051671452CA88842A8832DF5E55 /* Pod */ = {
+		2461392F613168ABE71B5BC460139020 /* Pods-XHTagsContainer_Tests */ = {
 			isa = PBXGroup;
 			children = (
-				E8674D3C9CA5B74142DA6E0BCF945676 /* LICENSE */,
-				FE27731FA2D7654315EE0C5C030ECB2D /* README.md */,
-				3B9B9158D40F1950139C2B2B3B381D74 /* XHTagsContainer.podspec */,
+				951F218F5E477ACF9BE41CA758825CCA /* Pods-XHTagsContainer_Tests-acknowledgements.markdown */,
+				03BA853F4E6B703FEA601619E7B3662C /* Pods-XHTagsContainer_Tests-acknowledgements.plist */,
+				98C02BCC62E94C94ADEA4522F33A9911 /* Pods-XHTagsContainer_Tests-dummy.m */,
+				338977473D90A42281B609DE6E3D03A4 /* Pods-XHTagsContainer_Tests.debug.xcconfig */,
+				9494CDD7A608C1251E9B90163AF426E6 /* Pods-XHTagsContainer_Tests.release.xcconfig */,
+			);
+			name = "Pods-XHTagsContainer_Tests";
+			path = "Target Support Files/Pods-XHTagsContainer_Tests";
+			sourceTree = "<group>";
+		};
+		5A89CD35F0D7F3DF49098D286AE10335 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C2E47750C492B4CF94BC6525147E7FB6 /* libPods-XHTagsContainer_Example.a */,
+				8167B41FBD924D001774F598E6B78E7E /* libPods-XHTagsContainer_Tests.a */,
+				6E03167B6346D876543C0DA85CFD9190 /* libXHTagsContainer.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5EA8E6F52577B68D7186FCADA3112D02 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9C1AD3FAAAEF95B28B43CBB678AE9CEF /* XHTagsContainer */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		905E933344957006DC012B29125C6B9C /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				BC50392A2A0D69CF50FABC4F8D6E8002 /* Pods-XHTagsContainer_Example */,
+				2461392F613168ABE71B5BC460139020 /* Pods-XHTagsContainer_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		9C1AD3FAAAEF95B28B43CBB678AE9CEF /* XHTagsContainer */ = {
+			isa = PBXGroup;
+			children = (
+				F68036D9BAA67FDACCDC52979E7AB68B /* XHTagsContainer.h */,
+				270F8BEB4E895380FDAA6E05E807C45E /* XHTagsContainer.m */,
+				E63E2EAF993759CD1662C7A261F57E59 /* XHTagsContainerViewModel.h */,
+				A9F86406417E33D0210C501E56BD029F /* XHTagsContainerViewModel.m */,
+				B4D14B6866071E6EE88FEE1CE69ADDCF /* Pod */,
+				188A9AAD8DB5D3AC02898754B32F2374 /* Support Files */,
+			);
+			name = XHTagsContainer;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		B4D14B6866071E6EE88FEE1CE69ADDCF /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				569B12F0A64EE91CDE2A129829B7C0E4 /* LICENSE */,
+				3EBC6621F5F67D7E5944679870252DD3 /* README.md */,
+				E5F7AE36C037C4846BEBAA70FB3DBC56 /* XHTagsContainer.podspec */,
 			);
 			name = Pod;
 			sourceTree = "<group>";
 		};
-		AE45D43BA545C812F5123E4740C5834A /* Pods-XHTagsContainer_Example */ = {
+		BC50392A2A0D69CF50FABC4F8D6E8002 /* Pods-XHTagsContainer_Example */ = {
 			isa = PBXGroup;
 			children = (
-				6A825F5E91711DD532A4C0945015B867 /* Pods-XHTagsContainer_Example.modulemap */,
-				BBDE51747ABB175A3A671F6B516442AD /* Pods-XHTagsContainer_Example-acknowledgements.markdown */,
-				DF773541306B604D609DC4614D75E329 /* Pods-XHTagsContainer_Example-acknowledgements.plist */,
-				491FBEB35275B9508712CCEE1833EBBA /* Pods-XHTagsContainer_Example-dummy.m */,
-				83FCA40BCCF632BEAADF247B0E1DA245 /* Pods-XHTagsContainer_Example-frameworks.sh */,
-				29146DA86AC697D5CD3230EFDC39C2C2 /* Pods-XHTagsContainer_Example-Info.plist */,
-				E410956633DF324AE62C5E7F9D5099AE /* Pods-XHTagsContainer_Example-umbrella.h */,
-				6D751A0277A569826C54299C533C2DEF /* Pods-XHTagsContainer_Example.debug.xcconfig */,
-				D500C1C351371FAB48F08DEDAE621E88 /* Pods-XHTagsContainer_Example.release.xcconfig */,
+				34B2C2FC0FBA013CCE47D011689B676A /* Pods-XHTagsContainer_Example-acknowledgements.markdown */,
+				00B60F761B92C63FEF0D0418643D4346 /* Pods-XHTagsContainer_Example-acknowledgements.plist */,
+				C27F0D669B7F60FDE2E53466636A271E /* Pods-XHTagsContainer_Example-dummy.m */,
+				95ACFF15334215A53B405BC5F3EFC242 /* Pods-XHTagsContainer_Example.debug.xcconfig */,
+				DFA96CD985EE1DEC0D7B72FC6E81FC3D /* Pods-XHTagsContainer_Example.release.xcconfig */,
 			);
 			name = "Pods-XHTagsContainer_Example";
 			path = "Target Support Files/Pods-XHTagsContainer_Example";
-			sourceTree = "<group>";
-		};
-		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
-			);
-			name = iOS;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				60F0AD3E9F794E50F95128AF1BA6C944 /* Development Pods */,
-				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				EE09DABE584525F4D64D371B8BD23730 /* Products */,
-				EFA0B889B688202D5455497F65DC4B53 /* Targets Support Files */,
+				5EA8E6F52577B68D7186FCADA3112D02 /* Development Pods */,
+				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
+				5A89CD35F0D7F3DF49098D286AE10335 /* Products */,
+				905E933344957006DC012B29125C6B9C /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+		D89477F20FB1DE18A04690586D7808C4 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		EE09DABE584525F4D64D371B8BD23730 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				C2E47750C492B4CF94BC6525147E7FB6 /* Pods_XHTagsContainer_Example.framework */,
-				8167B41FBD924D001774F598E6B78E7E /* Pods_XHTagsContainer_Tests.framework */,
-				71F741BC1ECBE5B1CEC3A792B3D896FF /* XHTagsContainer.bundle */,
-				6E03167B6346D876543C0DA85CFD9190 /* XHTagsContainer.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		EFA0B889B688202D5455497F65DC4B53 /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				AE45D43BA545C812F5123E4740C5834A /* Pods-XHTagsContainer_Example */,
-				1E15D03C59E99C59A979E4E3BECD78BC /* Pods-XHTagsContainer_Tests */,
-			);
-			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		7191543BA0C723AD7B1724C381ED9B8F /* Headers */ = {
+		1A0D42CE4E845A0CEF934FD2E31ECF46 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A4C7EB5D2B3EA374E5DC75281EDA5E97 /* NSBundle+XH.h in Headers */,
-				8378EF7BC5F08DF61C1F445F4D77D695 /* XHTagsContainer-umbrella.h in Headers */,
-				00F0D578B015891920CFCB43A8BBE6F6 /* XHTagsContainer.h in Headers */,
-				F8C12280BDF6FC95407AFEB969BF6498 /* XHTagsContainerViewModel.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BF53BA550272B555DB1446365A9F83E9 /* Headers */ = {
+		337F0E8B4B0EB5B95D2C8E34883E27AD /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				82C92352412F1431F2AFBF5B7C00F67C /* Pods-XHTagsContainer_Tests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F1D8A4E4710EB6061FD0DB24359BE472 /* Headers */ = {
+		FE0F9028A09711A2E91315DD80B591A2 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E3A1E6D7C1C8D56C4DB8FA3CE8DC9CC7 /* Pods-XHTagsContainer_Example-umbrella.h in Headers */,
+				64FB218F7B705B8652517E6DD511567C /* XHTagsContainer.h in Headers */,
+				AE6AF56A109381712057DE02659FC84F /* XHTagsContainerViewModel.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -310,77 +222,56 @@
 /* Begin PBXNativeTarget section */
 		5BDE573587A5690CA02AE175E06BF565 /* Pods-XHTagsContainer_Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E4D7E17C8D5E0975CAFAC574C2BE6DAE /* Build configuration list for PBXNativeTarget "Pods-XHTagsContainer_Tests" */;
+			buildConfigurationList = F6E48E3DD42EAB7E9ABC821CBC0D7D2A /* Build configuration list for PBXNativeTarget "Pods-XHTagsContainer_Tests" */;
 			buildPhases = (
-				BF53BA550272B555DB1446365A9F83E9 /* Headers */,
-				A4FAC643AE1122750210089A479E026E /* Sources */,
-				9E0149623D54C60A28DF207CB43940DB /* Frameworks */,
-				C7306E1610343171199CB51DC41F3E89 /* Resources */,
+				337F0E8B4B0EB5B95D2C8E34883E27AD /* Headers */,
+				DBFF9F019F2D647B0B4F01AE6CEBFA5A /* Sources */,
+				3F6FCAFDC1664E1B236E0A6C3C3CDDD0 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				E8B6673F3681CE4FD5DE33EF8E0B01BE /* PBXTargetDependency */,
+				F581843EE57CA4229D5E9314D0956222 /* PBXTargetDependency */,
 			);
 			name = "Pods-XHTagsContainer_Tests";
 			productName = "Pods-XHTagsContainer_Tests";
-			productReference = 8167B41FBD924D001774F598E6B78E7E /* Pods_XHTagsContainer_Tests.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		89D668750BDC48C87B4514A823403593 /* XHTagsContainer-XHTagsContainer */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 48942AB84433AA5BF4AF4735A081ED02 /* Build configuration list for PBXNativeTarget "XHTagsContainer-XHTagsContainer" */;
-			buildPhases = (
-				2411FC4A8F90337E716B4026A9AE2DB9 /* Sources */,
-				0C1B22DA71805D307484696CF343A3EA /* Frameworks */,
-				68AC56A318E74E7D1262B1596AA55363 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "XHTagsContainer-XHTagsContainer";
-			productName = "XHTagsContainer-XHTagsContainer";
-			productReference = 71F741BC1ECBE5B1CEC3A792B3D896FF /* XHTagsContainer.bundle */;
-			productType = "com.apple.product-type.bundle";
+			productReference = 8167B41FBD924D001774F598E6B78E7E /* libPods-XHTagsContainer_Tests.a */;
+			productType = "com.apple.product-type.library.static";
 		};
 		A1308B9B71F68A968C0EDA36154E9DC5 /* Pods-XHTagsContainer_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 62486B775491A19D762374B269B881AC /* Build configuration list for PBXNativeTarget "Pods-XHTagsContainer_Example" */;
+			buildConfigurationList = 5E993F08CC01BED1E71F12B9D2C11E79 /* Build configuration list for PBXNativeTarget "Pods-XHTagsContainer_Example" */;
 			buildPhases = (
-				F1D8A4E4710EB6061FD0DB24359BE472 /* Headers */,
-				F4D3797F31E2E6D9350491D5054E4DC3 /* Sources */,
-				EADA2CAC92D6E48984ED12349FC4676E /* Frameworks */,
-				1AACE559FAF3D27D284AAC9186146316 /* Resources */,
+				1A0D42CE4E845A0CEF934FD2E31ECF46 /* Headers */,
+				20A95E5A1E813732FD6F79DD4979E6FB /* Sources */,
+				DB8BC7A25FC761B6B51D33A3CC812A4D /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				41C5CE8C3CDAC5FED4F098CF8D1F98EB /* PBXTargetDependency */,
+				04596868CF84331B6BB90AC42EAEA32A /* PBXTargetDependency */,
 			);
 			name = "Pods-XHTagsContainer_Example";
 			productName = "Pods-XHTagsContainer_Example";
-			productReference = C2E47750C492B4CF94BC6525147E7FB6 /* Pods_XHTagsContainer_Example.framework */;
-			productType = "com.apple.product-type.framework";
+			productReference = C2E47750C492B4CF94BC6525147E7FB6 /* libPods-XHTagsContainer_Example.a */;
+			productType = "com.apple.product-type.library.static";
 		};
 		A50B8063F80EBC845201B7F3BA849C75 /* XHTagsContainer */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6A67D5B1EA83645A790718037A38702A /* Build configuration list for PBXNativeTarget "XHTagsContainer" */;
+			buildConfigurationList = 9EAD395FB5A4A0C61DDFE1B4F396D78B /* Build configuration list for PBXNativeTarget "XHTagsContainer" */;
 			buildPhases = (
-				7191543BA0C723AD7B1724C381ED9B8F /* Headers */,
-				47E55FB419E0C40F3F3A8D925629DC12 /* Sources */,
-				3BF0D0B277EAD9791F5504DEA1396420 /* Frameworks */,
-				FA7B7CED88E60271FE3C710E9286731C /* Resources */,
+				FE0F9028A09711A2E91315DD80B591A2 /* Headers */,
+				D2F85B3C3AC9624D6AE938DDEB762CE7 /* Sources */,
+				358CC6898DB26B39ABA51BC3A9D13369 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				A31E5FF885632E95FF00C274D5B6955B /* PBXTargetDependency */,
 			);
 			name = XHTagsContainer;
 			productName = XHTagsContainer;
-			productReference = 6E03167B6346D876543C0DA85CFD9190 /* XHTagsContainer.framework */;
-			productType = "com.apple.product-type.framework";
+			productReference = 6E03167B6346D876543C0DA85CFD9190 /* libXHTagsContainer.a */;
+			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
 
@@ -399,113 +290,83 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = EE09DABE584525F4D64D371B8BD23730 /* Products */;
+			productRefGroup = 5A89CD35F0D7F3DF49098D286AE10335 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				A1308B9B71F68A968C0EDA36154E9DC5 /* Pods-XHTagsContainer_Example */,
 				5BDE573587A5690CA02AE175E06BF565 /* Pods-XHTagsContainer_Tests */,
 				A50B8063F80EBC845201B7F3BA849C75 /* XHTagsContainer */,
-				89D668750BDC48C87B4514A823403593 /* XHTagsContainer-XHTagsContainer */,
 			);
 		};
 /* End PBXProject section */
 
-/* Begin PBXResourcesBuildPhase section */
-		1AACE559FAF3D27D284AAC9186146316 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		68AC56A318E74E7D1262B1596AA55363 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A6DEE3BA9C7551A60E1EE6FAA4545467 /* en.lproj in Resources */,
-				CE50C5FD637B61340D5A968823264DAE /* netError_img@2x.png in Resources */,
-				D04D01D4EBFAE985F0D0B1027FA22CE5 /* netError_img@3x.png in Resources */,
-				9816E803C4F09920885FCBDCCA4C9A63 /* zh.lproj in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C7306E1610343171199CB51DC41F3E89 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		FA7B7CED88E60271FE3C710E9286731C /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C6CD2BC757220E7647701E051474E415 /* XHTagsContainer.bundle in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXResourcesBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
-		2411FC4A8F90337E716B4026A9AE2DB9 /* Sources */ = {
+		20A95E5A1E813732FD6F79DD4979E6FB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B0027B47401DC1799D6142458673AEF2 /* Pods-XHTagsContainer_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		47E55FB419E0C40F3F3A8D925629DC12 /* Sources */ = {
+		D2F85B3C3AC9624D6AE938DDEB762CE7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2441D460338636481ABA9B258F595467 /* NSBundle+XH.m in Sources */,
-				EA03E805E733FA48E581C219D1EAAA14 /* XHTagsContainer-dummy.m in Sources */,
-				4E0E997AA02897F1D7177DB6A3D59478 /* XHTagsContainer.m in Sources */,
-				75F1BE950F8E641CD953CC4459BFC396 /* XHTagsContainerViewModel.m in Sources */,
+				55877DED6F9D871A32F470AA4FBE9A07 /* XHTagsContainer-dummy.m in Sources */,
+				D064F3340C568D12A6EF9A3FD40A53E8 /* XHTagsContainer.m in Sources */,
+				B0488D632693ACB00A0A2149365F40CF /* XHTagsContainerViewModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A4FAC643AE1122750210089A479E026E /* Sources */ = {
+		DBFF9F019F2D647B0B4F01AE6CEBFA5A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9A570665FB69C7E7B1077A7D5B89AEEC /* Pods-XHTagsContainer_Tests-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F4D3797F31E2E6D9350491D5054E4DC3 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				7E08115A02F6234F9399141C7819DCB9 /* Pods-XHTagsContainer_Example-dummy.m in Sources */,
+				E6A1CA4B1C71090EFE717EB2C804D7A1 /* Pods-XHTagsContainer_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		41C5CE8C3CDAC5FED4F098CF8D1F98EB /* PBXTargetDependency */ = {
+		04596868CF84331B6BB90AC42EAEA32A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = XHTagsContainer;
 			target = A50B8063F80EBC845201B7F3BA849C75 /* XHTagsContainer */;
-			targetProxy = B31232FC85719398D0D0598E8B44733A /* PBXContainerItemProxy */;
+			targetProxy = 3A0201EDA54767C4BAD84708BF452FBE /* PBXContainerItemProxy */;
 		};
-		A31E5FF885632E95FF00C274D5B6955B /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "XHTagsContainer-XHTagsContainer";
-			target = 89D668750BDC48C87B4514A823403593 /* XHTagsContainer-XHTagsContainer */;
-			targetProxy = 57F6FD1688580367CE4FC03D32FA1817 /* PBXContainerItemProxy */;
-		};
-		E8B6673F3681CE4FD5DE33EF8E0B01BE /* PBXTargetDependency */ = {
+		F581843EE57CA4229D5E9314D0956222 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-XHTagsContainer_Example";
 			target = A1308B9B71F68A968C0EDA36154E9DC5 /* Pods-XHTagsContainer_Example */;
-			targetProxy = 8DCC3159452FBFCEAC5049A05821A3E5 /* PBXContainerItemProxy */;
+			targetProxy = F6CC37E86C09DC5851BF73E27E6920DC /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		430BE82840D826AB56EDF66A0C1F93FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 338977473D90A42281B609DE6E3D03A4 /* Pods-XHTagsContainer_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
 		4BE66A09A74FD25164AAB3C2645B9B93 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -565,70 +426,6 @@
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
-		};
-		5EC671FD396F31CB9D6E2E1BA51CFB69 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 464AA2826907A85FEA602D4963778816 /* XHTagsContainer.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/XHTagsContainer/XHTagsContainer-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/XHTagsContainer/XHTagsContainer-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/XHTagsContainer/XHTagsContainer.modulemap";
-				PRODUCT_MODULE_NAME = XHTagsContainer;
-				PRODUCT_NAME = XHTagsContainer;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		75FB1F92E5AF66335AD04A377114B3C8 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6D751A0277A569826C54299C533C2DEF /* Pods-XHTagsContainer_Example.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-XHTagsContainer_Example/Pods-XHTagsContainer_Example-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-XHTagsContainer_Example/Pods-XHTagsContainer_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
 		};
 		7EF7227D9B20A1D549000096ACCB23D7 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -694,170 +491,119 @@
 			};
 			name = Debug;
 		};
-		A5013D41A0E62A9661413E910566E750 /* Release */ = {
+		865E2E75EE25062A7A82F32A85E8D62B /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0D1164E984F257CE7C6A66EB2E176F10 /* Pods-XHTagsContainer_Tests.release.xcconfig */;
+			baseConfigurationReference = 9494CDD7A608C1251E9B90163AF426E6 /* Pods-XHTagsContainer_Tests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-XHTagsContainer_Tests/Pods-XHTagsContainer_Tests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-XHTagsContainer_Tests/Pods-XHTagsContainer_Tests.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
-		B91B37E97EA4403F77DBC720C5D15F81 /* Release */ = {
+		97F846083A556E575093D250A425A07B /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 464AA2826907A85FEA602D4963778816 /* XHTagsContainer.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/XHTagsContainer";
-				INFOPLIST_FILE = "Target Support Files/XHTagsContainer/ResourceBundle-XHTagsContainer-XHTagsContainer-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				PRODUCT_NAME = XHTagsContainer;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Release;
-		};
-		C020933BC8C37D3F6CF234A2B649A0B3 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D500C1C351371FAB48F08DEDAE621E88 /* Pods-XHTagsContainer_Example.release.xcconfig */;
+			baseConfigurationReference = DFA96CD985EE1DEC0D7B72FC6E81FC3D /* Pods-XHTagsContainer_Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-XHTagsContainer_Example/Pods-XHTagsContainer_Example-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-XHTagsContainer_Example/Pods-XHTagsContainer_Example.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
-		DEA770B2DC3B3B8F0E0BE95E5FC071D4 /* Debug */ = {
+		A80E27E040DAACF60F895C70CC616BDB /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 464AA2826907A85FEA602D4963778816 /* XHTagsContainer.xcconfig */;
+			baseConfigurationReference = 51007597E60298261D26845365944D95 /* XHTagsContainer.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/XHTagsContainer";
-				INFOPLIST_FILE = "Target Support Files/XHTagsContainer/ResourceBundle-XHTagsContainer-XHTagsContainer-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				PRODUCT_NAME = XHTagsContainer;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Debug;
-		};
-		DEE192D9DCF4B11D23F02ECB9511C14A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9D41D3739A5C5AA7B5A3CFA65776C6E1 /* Pods-XHTagsContainer_Tests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-XHTagsContainer_Tests/Pods-XHTagsContainer_Tests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-XHTagsContainer_Tests/Pods-XHTagsContainer_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		FA8D0ED51F65487CF3E00B5764922B2D /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 464AA2826907A85FEA602D4963778816 /* XHTagsContainer.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				GCC_PREFIX_HEADER = "Target Support Files/XHTagsContainer/XHTagsContainer-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/XHTagsContainer/XHTagsContainer-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/XHTagsContainer/XHTagsContainer.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
 				PRODUCT_MODULE_NAME = XHTagsContainer;
 				PRODUCT_NAME = XHTagsContainer;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
+		};
+		AA7843A86FBFDC893BC28ED356616F6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 95ACFF15334215A53B405BC5F3EFC242 /* Pods-XHTagsContainer_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F3E264E3BD347E768CCE0F003586478B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 51007597E60298261D26845365944D95 /* XHTagsContainer.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/XHTagsContainer/XHTagsContainer-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = XHTagsContainer;
+				PRODUCT_NAME = XHTagsContainer;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
 		};
 /* End XCBuildConfiguration section */
 
@@ -871,38 +617,29 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		48942AB84433AA5BF4AF4735A081ED02 /* Build configuration list for PBXNativeTarget "XHTagsContainer-XHTagsContainer" */ = {
+		5E993F08CC01BED1E71F12B9D2C11E79 /* Build configuration list for PBXNativeTarget "Pods-XHTagsContainer_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DEA770B2DC3B3B8F0E0BE95E5FC071D4 /* Debug */,
-				B91B37E97EA4403F77DBC720C5D15F81 /* Release */,
+				AA7843A86FBFDC893BC28ED356616F6C /* Debug */,
+				97F846083A556E575093D250A425A07B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		62486B775491A19D762374B269B881AC /* Build configuration list for PBXNativeTarget "Pods-XHTagsContainer_Example" */ = {
+		9EAD395FB5A4A0C61DDFE1B4F396D78B /* Build configuration list for PBXNativeTarget "XHTagsContainer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				75FB1F92E5AF66335AD04A377114B3C8 /* Debug */,
-				C020933BC8C37D3F6CF234A2B649A0B3 /* Release */,
+				F3E264E3BD347E768CCE0F003586478B /* Debug */,
+				A80E27E040DAACF60F895C70CC616BDB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6A67D5B1EA83645A790718037A38702A /* Build configuration list for PBXNativeTarget "XHTagsContainer" */ = {
+		F6E48E3DD42EAB7E9ABC821CBC0D7D2A /* Build configuration list for PBXNativeTarget "Pods-XHTagsContainer_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5EC671FD396F31CB9D6E2E1BA51CFB69 /* Debug */,
-				FA8D0ED51F65487CF3E00B5764922B2D /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		E4D7E17C8D5E0975CAFAC574C2BE6DAE /* Build configuration list for PBXNativeTarget "Pods-XHTagsContainer_Tests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				DEE192D9DCF4B11D23F02ECB9511C14A /* Debug */,
-				A5013D41A0E62A9661413E910566E750 /* Release */,
+				430BE82840D826AB56EDF66A0C1F93FD /* Debug */,
+				865E2E75EE25062A7A82F32A85E8D62B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
